@@ -1,5 +1,5 @@
 {
-    "name": "ninjacto/realtime",
+    "name": "ninjacto/ortc-php",
     "type": "library",
     "description": "PHP SDK wrapper for ORTC (Realtime pub/sub framework from RealTime.co)",
     "keywords": [
