@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Exceptions;
+namespace ninjacto\OrtcPhp\Exceptions;
 
 class OrtcException extends \Exception
 {

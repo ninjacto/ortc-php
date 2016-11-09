@@ -1,11 +1,11 @@
 <?php
 
-namespace Nikapps\OrtcPhp;
+namespace ninjacto\OrtcPhp;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Models\Requests\AuthRequest;
-use Nikapps\OrtcPhp\Models\Requests\BalancerUrlRequest;
-use Nikapps\OrtcPhp\Models\Requests\SendMessageRequest;
+use ninjacto\OrtcPhp\Configs\OrtcConfig;
+use ninjacto\OrtcPhp\Models\Requests\AuthRequest;
+use ninjacto\OrtcPhp\Models\Requests\BalancerUrlRequest;
+use ninjacto\OrtcPhp\Models\Requests\SendMessageRequest;
 
 class Ortc
 {

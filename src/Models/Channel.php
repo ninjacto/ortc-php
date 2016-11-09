@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models;
+namespace ninjacto\OrtcPhp\Models;
 
 class Channel
 {

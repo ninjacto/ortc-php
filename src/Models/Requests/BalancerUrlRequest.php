@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace ninjacto\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Handlers\BalancerUrlResponseHandler;
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
+use ninjacto\OrtcPhp\Handlers\BalancerUrlResponseHandler;
+use ninjacto\OrtcPhp\Handlers\OrtcResponseHandler;
 
 class BalancerUrlRequest extends OrtcRequest
 {
@@ -15,7 +15,7 @@ class BalancerUrlRequest extends OrtcRequest
     public function getUrlPath()
     {
         $pathUrl = strtr(
-            $this->getOrtcConfig()->getBalancerUrl(),
+            $this->getOrtcConfig()->getBalancerUrl($this->getOrtcConfig()->getCluster()),
             [
                 '{APP_KEY}' => $this->getOrtcConfig()->getApplicationKey(),
             ]

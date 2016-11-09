@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace ninjacto\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
+use ninjacto\OrtcPhp\Configs\OrtcConfig;
+use ninjacto\OrtcPhp\Handlers\OrtcResponseHandler;
 
 abstract class OrtcRequest
 {

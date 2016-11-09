@@ -1,15 +1,15 @@
 <?php
 
-namespace Nikapps\OrtcPhp;
+namespace ninjacto\OrtcPhp;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Message\FutureResponse;
 use GuzzleHttp\Pool;
-use Nikapps\OrtcPhp\Exceptions\BatchRequestException;
-use Nikapps\OrtcPhp\Exceptions\InvalidBalancerUrlException;
-use Nikapps\OrtcPhp\Exceptions\NetworkErrorException;
-use Nikapps\OrtcPhp\Exceptions\UnauthorizedException;
-use Nikapps\OrtcPhp\Models\Requests\OrtcRequest;
+use ninjacto\OrtcPhp\Exceptions\BatchRequestException;
+use ninjacto\OrtcPhp\Exceptions\InvalidBalancerUrlException;
+use ninjacto\OrtcPhp\Exceptions\NetworkErrorException;
+use ninjacto\OrtcPhp\Exceptions\UnauthorizedException;
+use ninjacto\OrtcPhp\Models\Requests\OrtcRequest;
 
 class OrtcClient
 {

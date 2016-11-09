@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Responses;
+namespace ninjacto\OrtcPhp\Models\Responses;
 
 class OrtcResponse
 {

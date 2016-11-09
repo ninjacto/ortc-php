@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace ninjacto\OrtcPhp\Handlers;
 
 use GuzzleHttp\Message\FutureResponse;
-use Nikapps\OrtcPhp\Models\Responses\AuthResponse;
+use ninjacto\OrtcPhp\Models\Responses\AuthResponse;
 
 class AuthResponseHandler extends OrtcResponseHandler
 {

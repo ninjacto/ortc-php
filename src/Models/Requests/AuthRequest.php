@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace ninjacto\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Handlers\AuthResponseHandler;
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
-use Nikapps\OrtcPhp\Models\Channel;
+use ninjacto\OrtcPhp\Handlers\AuthResponseHandler;
+use ninjacto\OrtcPhp\Handlers\OrtcResponseHandler;
+use ninjacto\OrtcPhp\Models\Channel;
 
 class AuthRequest extends OrtcRequest
 {
@@ -98,7 +98,7 @@ class AuthRequest extends OrtcRequest
     }
 
     /**
-     * @return \Nikapps\OrtcPhp\Models\Channel[]
+     * @return \ninjacto\OrtcPhp\Models\Channel[]
      */
     public function getChannels()
     {
@@ -106,7 +106,7 @@ class AuthRequest extends OrtcRequest
     }
 
     /**
-     * @param \Nikapps\OrtcPhp\Models\Channel[] $channels
+     * @param \ninjacto\OrtcPhp\Models\Channel[] $channels
      *
      * @return $this
      */

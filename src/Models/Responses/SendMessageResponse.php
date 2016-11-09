@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Responses;
+namespace ninjacto\OrtcPhp\Models\Responses;
 
 use GuzzleHttp\BatchResults;
 

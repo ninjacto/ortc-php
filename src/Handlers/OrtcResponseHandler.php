@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace ninjacto\OrtcPhp\Handlers;
 
 use GuzzleHttp\BatchResults;
 use GuzzleHttp\Message\FutureResponse;
-use Nikapps\OrtcPhp\Models\Responses\OrtcResponse;
+use ninjacto\OrtcPhp\Models\Responses\OrtcResponse;
 
 abstract class OrtcResponseHandler
 {

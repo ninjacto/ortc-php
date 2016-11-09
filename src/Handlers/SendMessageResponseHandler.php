@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace ninjacto\OrtcPhp\Handlers;
 
 use GuzzleHttp\BatchResults;
-use Nikapps\OrtcPhp\Models\Responses\SendMessageResponse;
+use ninjacto\OrtcPhp\Models\Responses\SendMessageResponse;
 
 class SendMessageResponseHandler extends OrtcResponseHandler
 {

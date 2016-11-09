@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace ninjacto\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
-use Nikapps\OrtcPhp\Handlers\SendMessageResponseHandler;
+use ninjacto\OrtcPhp\Handlers\OrtcResponseHandler;
+use ninjacto\OrtcPhp\Handlers\SendMessageResponseHandler;
 use Ramsey\Uuid\Uuid;
 
 class SendMessageRequest extends OrtcRequest

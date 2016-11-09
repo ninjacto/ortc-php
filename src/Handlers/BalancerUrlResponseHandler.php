@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace ninjacto\OrtcPhp\Handlers;
 
 use GuzzleHttp\Message\FutureResponse;
-use Nikapps\OrtcPhp\Exceptions\InvalidBalancerUrlException;
-use Nikapps\OrtcPhp\Models\Responses\BalancerUrlResponse;
+use ninjacto\OrtcPhp\Exceptions\InvalidBalancerUrlException;
+use ninjacto\OrtcPhp\Models\Responses\BalancerUrlResponse;
 
 class BalancerUrlResponseHandler extends OrtcResponseHandler
 {
