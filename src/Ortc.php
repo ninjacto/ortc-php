@@ -2,6 +2,7 @@
 
 namespace ninjacto\OrtcPhp;
 
+use GuzzleHttp\Client;
 use ninjacto\OrtcPhp\Configs\OrtcConfig;
 use ninjacto\OrtcPhp\Models\Requests\AuthRequest;
 use ninjacto\OrtcPhp\Models\Requests\BalancerUrlRequest;
@@ -15,7 +16,7 @@ class Ortc
     private $ortcConfig;
 
     /**
-     * @var \GuzzleHttp\Client
+     * @var Client
      */
     private $guzzleClient;
 
@@ -32,7 +33,7 @@ class Ortc
     public function __construct(OrtcConfig $ortcConfig)
     {
         $this->ortcConfig = $ortcConfig;
-        $this->guzzleClient = new \GuzzleHttp\Client();
+        $this->guzzleClient = new Client();
     }
 
     /**
@@ -52,7 +53,7 @@ class Ortc
     }
 
     /**
-     * @return \GuzzleHttp\Client
+     * @return Client
      */
     public function getGuzzleClient()
     {
@@ -60,7 +61,7 @@ class Ortc
     }
 
     /**
-     * @param \GuzzleHttp\Client $guzzleClient
+     * @param Client $guzzleClient
      */
     public function setGuzzleClient($guzzleClient)
     {

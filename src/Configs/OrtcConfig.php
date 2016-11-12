@@ -98,10 +98,12 @@ class OrtcConfig
 
     /**
      * @param string $applicationKey
+     * @return $this
      */
     public function setApplicationKey($applicationKey)
     {
         $this->applicationKey = $applicationKey;
+        return $this;
     }
 
     /**
@@ -109,15 +111,17 @@ class OrtcConfig
      */
     public function getBalancerUrl()
     {
-        return $this->clusterUrl.$this->balancerUrl;
+        return $this->clusterUrl . $this->balancerUrl;
     }
 
     /**
      * @param string $balancerUrl
+     * @return $this
      */
     public function setBalancerUrl($balancerUrl)
     {
         $this->balancerUrl = $balancerUrl;
+        return $this;
     }
 
     /**
@@ -125,15 +129,17 @@ class OrtcConfig
      */
     public function getClusterUrl()
     {
-        return ($this->cluster == 'india')?$this->indiaClusterUrl:$this->clusterUrl;
+        return ($this->cluster == 'india') ? $this->indiaClusterUrl : $this->clusterUrl;
     }
 
     /**
      * @param string $clusterUrl
+     * @return $this
      */
     public function setClusterUrl($clusterUrl)
     {
         $this->clusterUrl = $clusterUrl;
+        return $this;
     }
 
     /**
@@ -146,10 +152,12 @@ class OrtcConfig
 
     /**
      * @param string $cluster
+     * @return $this
      */
     public function setCluster($cluster)
     {
         $this->cluster = $cluster;
+        return $this;
     }
 
     /**
@@ -162,10 +170,12 @@ class OrtcConfig
 
     /**
      * @param string $privateKey
+     * @return $this
      */
     public function setPrivateKey($privateKey)
     {
         $this->privateKey = $privateKey;
+        return $this;
     }
 
     /**
@@ -178,10 +188,12 @@ class OrtcConfig
 
     /**
      * @param string $authenticationPath
+     * @return $this
      */
     public function setAuthenticationPath($authenticationPath)
     {
         $this->authenticationPath = $authenticationPath;
+        return $this;
     }
 
     /**
@@ -194,10 +206,12 @@ class OrtcConfig
 
     /**
      * @param string $sendPath
+     * @return $this
      */
     public function setSendPath($sendPath)
     {
         $this->sendPath = $sendPath;
+        return $this;
     }
 
     /**
@@ -210,10 +224,12 @@ class OrtcConfig
 
     /**
      * @param int $maxChunkSize
+     * @return $this
      */
     public function setMaxChunkSize($maxChunkSize)
     {
         $this->maxChunkSize = $maxChunkSize;
+        return $this;
     }
 
     /**
@@ -226,10 +242,12 @@ class OrtcConfig
 
     /**
      * @param string $preMessageString
+     * @return $this
      */
     public function setPreMessageString($preMessageString)
     {
         $this->preMessageString = $preMessageString;
+        return $this;
     }
 
     /**
@@ -242,10 +260,12 @@ class OrtcConfig
 
     /**
      * @param bool $verifySsl
+     * @return $this
      */
     public function setVerifySsl($verifySsl)
     {
-        $this->verifySsl = (bool) $verifySsl;
+        $this->verifySsl = (bool)$verifySsl;
+        return $this;
     }
 
     /**
@@ -258,9 +278,12 @@ class OrtcConfig
 
     /**
      * @param int $batchPoolSize
+     * @return $this
      */
     public function setBatchPoolSize($batchPoolSize)
     {
         $this->batchPoolSize = $batchPoolSize;
+
+        return $this;
     }
 }
