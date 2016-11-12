@@ -3,6 +3,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
+[![Build Status][icon-scrutinizer-buil]][link-scrutinizer-build]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -71,12 +72,14 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/ninjacto/ortc-php/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/ninjacto/ortc-php.svg?style=flat-square
+[link-scrutinizer-build]: https://scrutinizer-ci.com/g/ninjacto/ortc-php/badges/build.png?b=master
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/ninjacto/ortc-php.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/ninjacto/ortc-php.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/ninjacto/ortc-php
 [link-travis]: https://travis-ci.org/ninjacto/ortc-php
 [link-scrutinizer]: https://scrutinizer-ci.com/g/ninjacto/ortc-php/code-structure
+[link-scrutinizer-build]: https://scrutinizer-ci.com/g/ninjacto/ortc-php/build-status/master
 [link-code-quality]: https://scrutinizer-ci.com/g/ninjacto/ortc-php
 [link-downloads]: https://packagist.org/packages/ninjacto/ortc-php
 [link-author]: https://github.com/ninjacto
