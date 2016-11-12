@@ -8,3 +8,12 @@ tools:
     # and a huge bunch of false-positives
     php_sim: false
     php_cpd: false
+
+build:
+    tests:
+        override:
+            -
+                command: 'phpunit --coverage-clover=./build/logs/clover.xml'
+                coverage:
+                    file: 'clover.xml'
+                    format: 'clover'
