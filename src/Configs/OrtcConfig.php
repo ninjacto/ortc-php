@@ -103,6 +103,7 @@ class OrtcConfig
     public function setApplicationKey($applicationKey)
     {
         $this->applicationKey = $applicationKey;
+
         return $this;
     }
 
@@ -121,6 +122,7 @@ class OrtcConfig
     public function setBalancedUrl($balancedUrl)
     {
         $this->balancerUrl = $balancedUrl;
+
         return $this;
     }
 
@@ -139,6 +141,7 @@ class OrtcConfig
     public function setClusterUrl($clusterUrl)
     {
         $this->clusterUrl = $clusterUrl;
+
         return $this;
     }
 
@@ -157,6 +160,7 @@ class OrtcConfig
     public function setCluster($cluster)
     {
         $this->cluster = $cluster;
+
         return $this;
     }
 
@@ -175,6 +179,7 @@ class OrtcConfig
     public function setPrivateKey($privateKey)
     {
         $this->privateKey = $privateKey;
+
         return $this;
     }
 
@@ -193,6 +198,7 @@ class OrtcConfig
     public function setAuthenticationPath($authenticationPath)
     {
         $this->authenticationPath = $authenticationPath;
+
         return $this;
     }
 
@@ -211,6 +217,7 @@ class OrtcConfig
     public function setSendPath($sendPath)
     {
         $this->sendPath = $sendPath;
+
         return $this;
     }
 
@@ -229,6 +236,7 @@ class OrtcConfig
     public function setMaxChunkSize($maxChunkSize)
     {
         $this->maxChunkSize = $maxChunkSize;
+
         return $this;
     }
 
@@ -247,6 +255,7 @@ class OrtcConfig
     public function setPreMessageString($preMessageString)
     {
         $this->preMessageString = $preMessageString;
+
         return $this;
     }
 
@@ -265,6 +274,7 @@ class OrtcConfig
     public function setVerifySsl($verifySsl)
     {
         $this->verifySsl = (bool)$verifySsl;
+
         return $this;
     }
 

@@ -15,7 +15,7 @@ class BalancerUrlRequest extends OrtcRequest
     public function getUrlPath()
     {
         $pathUrl = strtr(
-            $this->getOrtcConfig()->getBalancedUrl($this->getOrtcConfig()->getCluster()),
+            $this->getOrtcConfig()->getBalancedUrl(),
             [
                 '{APP_KEY}' => $this->getOrtcConfig()->getApplicationKey(),
             ]
