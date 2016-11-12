@@ -51,9 +51,9 @@ class OrtcConfigTest extends TestCase
     public function providerSetAttributes()
     {
         return [
-            ['balancerUrl', 'https://ortc-developers.realtime.co/server/2.1?appkey=123456'],
-            ['applicationKey', 'abcdef'],
-            ['privateKey', '98765'],
+            ['balancerUrl', 'https://ortc-developers.realtime.co/server/2.1?appkey=VBGUpr'],
+            ['applicationKey', 'VBGUpr'],
+            ['privateKey', 'bURLXTzQtNI6'],
             ['authenticationPath', '/auth'],
             ['sendPath', '/enviar'],
             ['maxChunkSize', 100],
