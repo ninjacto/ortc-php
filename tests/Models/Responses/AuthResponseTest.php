@@ -3,7 +3,7 @@
 namespace Tests\Responses;
 
 use ninjacto\OrtcPhp\Models\Responses\AuthResponse;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class AuthResponseTest extends TestCase
 {

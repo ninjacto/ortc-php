@@ -3,7 +3,7 @@
 namespace Tests\Models;
 
 use ninjacto\OrtcPhp\Models\Channel;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class ChannelTest extends TestCase
 {

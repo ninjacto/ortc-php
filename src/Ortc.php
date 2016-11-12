@@ -74,13 +74,13 @@ class Ortc
     protected function prepare()
     {
         if (!$this->baseUrl) {
-            $balancerUrlResponse = $this->getBalancerUrl();
-            $this->baseUrl = $balancerUrlResponse->getUrl();
+            $balancedUrlResponse = $this->getBalancerUrl();
+            $this->baseUrl = $balancedUrlResponse->getUrl();
         }
     }
 
     /**
-     * get balancer url.
+     * get balanced url.
      *
      * @throws Exceptions\NetworkErrorException
      * @throws Exceptions\UnauthorizedException
@@ -92,11 +92,11 @@ class Ortc
     {
         $this->baseUrl = null;
 
-        $balancerUrlRequest = new BalancerUrlRequest();
-        $balancerUrlRequest->setOrtcConfig($this->ortcConfig);
+        $balancedUrlRequest = new BalancerUrlRequest();
+        $balancedUrlRequest->setOrtcConfig($this->ortcConfig);
 
         $ortcClient = new OrtcClient();
-        $ortcClient->setRequest($balancerUrlRequest);
+        $ortcClient->setRequest($balancedUrlRequest);
         $ortcClient->setGuzzleClient($this->guzzleClient);
 
         return $ortcClient->execute();

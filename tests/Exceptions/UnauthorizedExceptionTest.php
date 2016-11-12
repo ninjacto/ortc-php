@@ -3,7 +3,7 @@
 namespace Tests\Exceptions;
 
 use ninjacto\OrtcPhp\Exceptions\UnauthorizedException;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class UnauthorizedExceptionTest extends TestCase
 {

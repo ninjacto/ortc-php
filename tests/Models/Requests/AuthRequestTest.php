@@ -5,7 +5,7 @@ namespace Tests\Models\Requests;
 use ninjacto\OrtcPhp\Configs\OrtcConfig;
 use ninjacto\OrtcPhp\Models\Channel;
 use ninjacto\OrtcPhp\Models\Requests\AuthRequest;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class AuthRequestTest extends TestCase
 {

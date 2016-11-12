@@ -5,7 +5,7 @@ namespace Tests\Models\Requests;
 use Mockery as m;
 use ninjacto\OrtcPhp\Configs\OrtcConfig;
 use ninjacto\OrtcPhp\Models\Requests\SendMessageRequest;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class SendMessageRequestTest extends TestCase
 {

@@ -4,7 +4,7 @@ namespace Tests\Models\Requests;
 
 use ninjacto\OrtcPhp\Configs\OrtcConfig;
 use ninjacto\OrtcPhp\Models\Requests\BalancerUrlRequest;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class BalancerUrlRequestTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace Tests\Responses;
 
 use ninjacto\OrtcPhp\Models\Responses\SendMessageResponse;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class SendMessageResponseTest extends TestCase
 {

@@ -4,7 +4,7 @@ namespace Tests\Models\Requests;
 
 use Mockery as m;
 use ninjacto\OrtcPhp\Configs\OrtcConfig;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class OrtcRequestTest extends TestCase
 {

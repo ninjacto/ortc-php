@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Configs;
+namespace Test\Configs;
 
 use ninjacto\OrtcPhp\Configs\OrtcConfig;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class OrtcConfigTest extends TestCase
 {
@@ -24,7 +24,7 @@ class OrtcConfigTest extends TestCase
     public function providerAttributesDefault()
     {
         return [
-            ['balancerUrl', 'https://ortc-developers.realtime.co/server/2.1?appkey={APP_KEY}'],
+            ['balancedUrl', 'https://ortc-developers.realtime.co/server/2.1?appkey={APP_KEY}'],
             ['applicationKey', null],
             ['privateKey', null],
             ['authenticationPath', '/authenticate'],
@@ -55,9 +55,9 @@ class OrtcConfigTest extends TestCase
     public function providerSetAttributes()
     {
         return [
-            ['balancerUrl', 'https://ortc-developers.realtime.co/server/2.1?appkey=VBGUpr'],
-            ['applicationKey', 'VBGUpr'],
-            ['privateKey', 'bURLXTzQtNI6'],
+            ['balancedUrl', 'https://ortc-developers.realtime.co/server/2.1?appkey=123456'],
+            ['applicationKey', 'abcede'],
+            ['privateKey', '123456'],
             ['authenticationPath', '/auth'],
             ['sendPath', '/enviar'],
             ['maxChunkSize', 100],

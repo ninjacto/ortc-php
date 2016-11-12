@@ -22,10 +22,10 @@ class BalancerUrlResponseHandler extends OrtcResponseHandler
         $url = $this->parseUrl($body);
         $this->validate($url);
 
-        $balancerUrlResponse = new BalancerUrlResponse();
-        $balancerUrlResponse->setUrl($url);
+        $balancedUrlResponse = new BalancerUrlResponse();
+        $balancedUrlResponse->setUrl($url);
 
-        return $balancerUrlResponse;
+        return $balancedUrlResponse;
     }
 
     /**

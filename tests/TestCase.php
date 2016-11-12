@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace ninjacto\OrtcPhp;
 
 use Mockery;
 

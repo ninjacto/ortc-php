@@ -3,7 +3,7 @@
 namespace Tests\Handlers;
 
 use ninjacto\OrtcPhp\Handlers\BalancerUrlResponseHandler;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class BalancerUrlResponseHandlerTest extends TestCase
 {

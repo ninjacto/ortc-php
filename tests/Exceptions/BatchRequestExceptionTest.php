@@ -3,7 +3,7 @@
 namespace Tests\Exceptions;
 
 use ninjacto\OrtcPhp\Exceptions\BatchRequestException;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class BatchRequestExceptionTest extends TestCase
 {

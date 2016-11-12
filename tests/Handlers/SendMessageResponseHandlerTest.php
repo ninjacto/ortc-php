@@ -4,7 +4,7 @@ namespace Tests\Handlers;
 
 use Mockery as m;
 use ninjacto\OrtcPhp\Handlers\SendMessageResponseHandler;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class SendMessageResponseHandlerTest extends TestCase
 {

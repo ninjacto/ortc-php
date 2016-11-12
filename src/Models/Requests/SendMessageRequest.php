@@ -4,7 +4,6 @@ namespace ninjacto\OrtcPhp\Models\Requests;
 
 use ninjacto\OrtcPhp\Handlers\OrtcResponseHandler;
 use ninjacto\OrtcPhp\Handlers\SendMessageResponseHandler;
-use Ramsey\Uuid\Uuid;
 
 class SendMessageRequest extends OrtcRequest
 {
@@ -85,7 +84,7 @@ class SendMessageRequest extends OrtcRequest
         $chunks = str_split($this->getMessage(), $maxSize);
         $numberOfParts = count($chunks);
 
-        $randomString = substr(sha1(Uuid::uuid4()->toString()), -8);
+        $randomString = substr(sha1(rand(1,10)), -8);
 
         for ($i = 0; $i < count($chunks); $i++) {
             $preString = strtr(

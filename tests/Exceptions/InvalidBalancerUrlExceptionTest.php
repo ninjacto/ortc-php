@@ -3,7 +3,7 @@
 namespace Tests\Exceptions;
 
 use ninjacto\OrtcPhp\Exceptions\InvalidBalancerUrlException;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class InvalidBalancerUrlExceptionTest extends TestCase
 {

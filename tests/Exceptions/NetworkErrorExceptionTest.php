@@ -4,7 +4,7 @@ namespace Tests\Exceptions;
 
 use Mockery as m;
 use ninjacto\OrtcPhp\Exceptions\NetworkErrorException;
-use Tests\TestCase;
+use ninjacto\OrtcPhp\TestCase;
 
 class NetworkErrorExceptionTest extends TestCase
 {

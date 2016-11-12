@@ -5,32 +5,11 @@ namespace ninjacto\OrtcPhp\Configs;
 class OrtcConfig
 {
     /**
-     * Realtime.co india cluster url.
+     * Realtime.co balanced url.
      *
      * @var string
      */
-    protected $indiaClusterUrl = 'https://ortc-india.realtime.co/server/2.1';
-
-    /**
-     * Realtime.co default url.
-     *
-     * @var string
-     */
-    protected $clusterUrl = 'https://ortc-developers.realtime.co/server/2.1';
-
-    /**
-     * Realtime.co cluster server.
-     *
-     * @var string
-     */
-    protected $cluster = 'india';
-
-    /**
-     * Realtime.co balancer url.
-     *
-     * @var string
-     */
-    protected $balancerUrl = '?appkey={APP_KEY}';
+    protected $balancedUrl = 'https://ortc-developers.realtime.co/server/2.1?appkey={APP_KEY}';
 
     /**
      * Your realtime.co application key.
@@ -112,7 +91,7 @@ class OrtcConfig
      */
     public function getBalancedUrl()
     {
-        return $this->clusterUrl . $this->balancerUrl;
+        return $this->balancedUrl;
     }
 
     /**
@@ -121,45 +100,7 @@ class OrtcConfig
      */
     public function setBalancedUrl($balancedUrl)
     {
-        $this->balancerUrl = $balancedUrl;
-
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getClusterUrl()
-    {
-        return ($this->cluster == 'india') ? $this->indiaClusterUrl : $this->clusterUrl;
-    }
-
-    /**
-     * @param string $clusterUrl
-     * @return $this
-     */
-    public function setClusterUrl($clusterUrl)
-    {
-        $this->clusterUrl = $clusterUrl;
-
-        return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getCluster()
-    {
-        return $this->cluster;
-    }
-
-    /**
-     * @param string $cluster
-     * @return $this
-     */
-    public function setCluster($cluster)
-    {
-        $this->cluster = $cluster;
+        $this->balancedUrl = $balancedUrl;
 
         return $this;
     }
