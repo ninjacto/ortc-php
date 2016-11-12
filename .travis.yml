@@ -6,4 +6,7 @@ php:
   - hhvm
   - nightly
 install:
+  # add composer's global bin directory to the path
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
   - composer install
