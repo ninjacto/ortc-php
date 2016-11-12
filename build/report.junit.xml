@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ninjacto Test Suite" tests="47" assertions="133" failures="0" errors="0" time="1.240234">
+    <testsuite name="Test\Configs\OrtcConfigTest" file="/Users/Server/ortc-php/tests/Configs/OrtcConfigTest.php" tests="17" assertions="36" failures="0" errors="0" time="0.141921">
+      <testsuite name="Test\Configs\OrtcConfigTest::testAttributesDefault" tests="8" assertions="16" failures="0" errors="0" time="0.118349">
+        <testcase name="testAttributesDefault with data set #0" assertions="2" time="0.102938"/>
+        <testcase name="testAttributesDefault with data set #1" assertions="2" time="0.002440"/>
+        <testcase name="testAttributesDefault with data set #2" assertions="2" time="0.002186"/>
+        <testcase name="testAttributesDefault with data set #3" assertions="2" time="0.001984"/>
+        <testcase name="testAttributesDefault with data set #4" assertions="2" time="0.002064"/>
+        <testcase name="testAttributesDefault with data set #5" assertions="2" time="0.002245"/>
+        <testcase name="testAttributesDefault with data set #6" assertions="2" time="0.002146"/>
+        <testcase name="testAttributesDefault with data set #7" assertions="2" time="0.002346"/>
+      </testsuite>
+      <testsuite name="Test\Configs\OrtcConfigTest::testSetAttributes" tests="8" assertions="16" failures="0" errors="0" time="0.019172">
+        <testcase name="testSetAttributes with data set #0" assertions="2" time="0.002880"/>
+        <testcase name="testSetAttributes with data set #1" assertions="2" time="0.002187"/>
+        <testcase name="testSetAttributes with data set #2" assertions="2" time="0.002430"/>
+        <testcase name="testSetAttributes with data set #3" assertions="2" time="0.002351"/>
+        <testcase name="testSetAttributes with data set #4" assertions="2" time="0.003042"/>
+        <testcase name="testSetAttributes with data set #5" assertions="2" time="0.002071"/>
+        <testcase name="testSetAttributes with data set #6" assertions="2" time="0.002170"/>
+        <testcase name="testSetAttributes with data set #7" assertions="2" time="0.002041"/>
+      </testsuite>
+      <testcase name="testAttributeVerifySsl" class="Test\Configs\OrtcConfigTest" file="/Users/Server/ortc-php/tests/Configs/OrtcConfigTest.php" line="69" assertions="4" time="0.004400"/>
+    </testsuite>
+    <testsuite name="Tests\Exceptions\BatchRequestExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/BatchRequestExceptionTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.030222">
+      <testcase name="testImplements" class="Tests\Exceptions\BatchRequestExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/BatchRequestExceptionTest.php" line="10" assertions="5" time="0.030222"/>
+    </testsuite>
+    <testsuite name="Tests\Exceptions\InvalidBalancerUrlExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/InvalidBalancerUrlExceptionTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.003891">
+      <testcase name="testImplements" class="Tests\Exceptions\InvalidBalancerUrlExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/InvalidBalancerUrlExceptionTest.php" line="10" assertions="5" time="0.003891"/>
+    </testsuite>
+    <testsuite name="Tests\Exceptions\NetworkErrorExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/NetworkErrorExceptionTest.php" tests="1" assertions="5" failures="0" errors="0" time="0.517787">
+      <testcase name="testImplements" class="Tests\Exceptions\NetworkErrorExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/NetworkErrorExceptionTest.php" line="11" assertions="5" time="0.517787"/>
+    </testsuite>
+    <testsuite name="Tests\Exceptions\UnauthorizedExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/UnauthorizedExceptionTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.021213">
+      <testcase name="testImplements" class="Tests\Exceptions\UnauthorizedExceptionTest" file="/Users/Server/ortc-php/tests/Exceptions/UnauthorizedExceptionTest.php" line="10" assertions="1" time="0.021213"/>
+    </testsuite>
+    <testsuite name="Tests\Handlers\AuthResponseHandlerTest" file="/Users/Server/ortc-php/tests/Handlers/AuthResponseHandlerTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.016961">
+      <testcase name="testImplementsAndHandle" class="Tests\Handlers\AuthResponseHandlerTest" file="/Users/Server/ortc-php/tests/Handlers/AuthResponseHandlerTest.php" line="11" assertions="3" time="0.016961"/>
+    </testsuite>
+    <testsuite name="Tests\Handlers\BalancerUrlResponseHandlerTest" file="/Users/Server/ortc-php/tests/Handlers/BalancerUrlResponseHandlerTest.php" tests="5" assertions="7" failures="0" errors="0" time="0.032208">
+      <testcase name="testImplementsAndHandle" class="Tests\Handlers\BalancerUrlResponseHandlerTest" file="/Users/Server/ortc-php/tests/Handlers/BalancerUrlResponseHandlerTest.php" line="10" assertions="3" time="0.021927"/>
+      <testsuite name="Tests\Handlers\BalancerUrlResponseHandlerTest::testHandleThrowInvalidBalancerUrlException" tests="4" assertions="4" failures="0" errors="0" time="0.010281">
+        <testcase name="testHandleThrowInvalidBalancerUrlException with data set #0" assertions="1" time="0.003111"/>
+        <testcase name="testHandleThrowInvalidBalancerUrlException with data set #1" assertions="1" time="0.002399"/>
+        <testcase name="testHandleThrowInvalidBalancerUrlException with data set #2" assertions="1" time="0.002494"/>
+        <testcase name="testHandleThrowInvalidBalancerUrlException with data set #3" assertions="1" time="0.002277"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Tests\Handlers\SendMessageResponseHandlerTest" file="/Users/Server/ortc-php/tests/Handlers/SendMessageResponseHandlerTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.016353">
+      <testcase name="testImplementsAndHandle" class="Tests\Handlers\SendMessageResponseHandlerTest" file="/Users/Server/ortc-php/tests/Handlers/SendMessageResponseHandlerTest.php" line="11" assertions="3" time="0.016353"/>
+    </testsuite>
+    <testsuite name="Tests\Models\ChannelTest" file="/Users/Server/ortc-php/tests/Models/ChannelTest.php" tests="3" assertions="9" failures="0" errors="0" time="0.010990">
+      <testcase name="testConstruct" class="Tests\Models\ChannelTest" file="/Users/Server/ortc-php/tests/Models/ChannelTest.php" line="10" assertions="4" time="0.004851"/>
+      <testcase name="testSetAndGetAttributes" class="Tests\Models\ChannelTest" file="/Users/Server/ortc-php/tests/Models/ChannelTest.php" line="21" assertions="4" time="0.003881"/>
+      <testcase name="testToString" class="Tests\Models\ChannelTest" file="/Users/Server/ortc-php/tests/Models/ChannelTest.php" line="31" assertions="1" time="0.002258"/>
+    </testsuite>
+    <testsuite name="Tests\Models\Requests\AuthRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/AuthRequestTest.php" tests="6" assertions="14" failures="0" errors="0" time="0.019527">
+      <testcase name="testImplementsDefault" class="Tests\Models\Requests\AuthRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/AuthRequestTest.php" line="12" assertions="5" time="0.007739"/>
+      <testsuite name="Tests\Models\Requests\AuthRequestTest::testSetAndGetAttributes" tests="3" assertions="6" failures="0" errors="0" time="0.006515">
+        <testcase name="testSetAndGetAttributes with data set #0" assertions="2" time="0.002274"/>
+        <testcase name="testSetAndGetAttributes with data set #1" assertions="2" time="0.002149"/>
+        <testcase name="testSetAndGetAttributes with data set #2" assertions="2" time="0.002092"/>
+      </testsuite>
+      <testcase name="testAttributePrivate" class="Tests\Models\Requests\AuthRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/AuthRequestTest.php" line="50" assertions="2" time="0.002153"/>
+      <testcase name="testGetPostData" class="Tests\Models\Requests\AuthRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/AuthRequestTest.php" line="59" assertions="1" time="0.003120"/>
+    </testsuite>
+    <testsuite name="Tests\Models\Requests\BalancerUrlRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/BalancerUrlRequestTest.php" tests="1" assertions="6" failures="0" errors="0" time="0.300277">
+      <testcase name="testImplementsDefault" class="Tests\Models\Requests\BalancerUrlRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/BalancerUrlRequestTest.php" line="11" assertions="6" time="0.300277"/>
+    </testsuite>
+    <testsuite name="Tests\Models\Requests\OrtcRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/OrtcRequestTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.014240">
+      <testcase name="testImplementsDefault" class="Tests\Models\Requests\OrtcRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/OrtcRequestTest.php" line="11" assertions="3" time="0.014240"/>
+    </testsuite>
+    <testsuite name="Tests\Models\Requests\SendMessageRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/SendMessageRequestTest.php" tests="5" assertions="24" failures="0" errors="0" time="0.105614">
+      <testcase name="testImplementsDefault" class="Tests\Models\Requests\SendMessageRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/SendMessageRequestTest.php" line="12" assertions="5" time="0.091904"/>
+      <testsuite name="Tests\Models\Requests\SendMessageRequestTest::testSetAndGetAttributes" tests="3" assertions="6" failures="0" errors="0" time="0.008045">
+        <testcase name="testSetAndGetAttributes with data set #0" assertions="2" time="0.002948"/>
+        <testcase name="testSetAndGetAttributes with data set #1" assertions="2" time="0.002311"/>
+        <testcase name="testSetAndGetAttributes with data set #2" assertions="2" time="0.002786"/>
+      </testsuite>
+      <testcase name="testGetPostData" class="Tests\Models\Requests\SendMessageRequestTest" file="/Users/Server/ortc-php/tests/Models/Requests/SendMessageRequestTest.php" line="51" assertions="13" time="0.005665"/>
+    </testsuite>
+    <testsuite name="Tests\Responses\AuthResponseTest" file="/Users/Server/ortc-php/tests/Models/Responses/AuthResponseTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.003158">
+      <testcase name="testImplements" class="Tests\Responses\AuthResponseTest" file="/Users/Server/ortc-php/tests/Models/Responses/AuthResponseTest.php" line="10" assertions="4" time="0.003158"/>
+    </testsuite>
+    <testsuite name="Tests\Responses\BalancerUrlResponseTest" file="/Users/Server/ortc-php/tests/Models/Responses/BalancerUrlResponseTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.002827">
+      <testcase name="testImplements" class="Tests\Responses\BalancerUrlResponseTest" file="/Users/Server/ortc-php/tests/Models/Responses/BalancerUrlResponseTest.php" line="10" assertions="4" time="0.002827"/>
+    </testsuite>
+    <testsuite name="Tests\Responses\SendMessageResponseTest" file="/Users/Server/ortc-php/tests/Models/Responses/SendMessageResponseTest.php" tests="1" assertions="4" failures="0" errors="0" time="0.003046">
+      <testcase name="testImplements" class="Tests\Responses\SendMessageResponseTest" file="/Users/Server/ortc-php/tests/Models/Responses/SendMessageResponseTest.php" line="10" assertions="4" time="0.003046"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

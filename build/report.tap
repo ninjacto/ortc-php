@@ -1,0 +1,49 @@
+TAP version 13
+ok 1 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #0 ('balancedUrl', 'https://ortc-developers.realt...P_KEY}')
+ok 2 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #1 ('applicationKey', null)
+ok 3 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #2 ('privateKey', null)
+ok 4 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #3 ('authenticationPath', '/authenticate')
+ok 5 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #4 ('sendPath', '/send')
+ok 6 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #5 ('maxChunkSize', 700)
+ok 7 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #6 ('batchPoolSize', 5)
+ok 8 - Test\Configs\OrtcConfigTest::testAttributesDefault with data set #7 ('preMessageString', '{RANDOM}_{PART}-{TOTAL_PARTS}_')
+ok 9 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #0 ('balancedUrl', 'https://ortc-developers.realt...123456')
+ok 10 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #1 ('applicationKey', 'abcede')
+ok 11 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #2 ('privateKey', '123456')
+ok 12 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #3 ('authenticationPath', '/auth')
+ok 13 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #4 ('sendPath', '/enviar')
+ok 14 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #5 ('maxChunkSize', 100)
+ok 15 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #6 ('batchPoolSize', 20)
+ok 16 - Test\Configs\OrtcConfigTest::testSetAttributes with data set #7 ('preMessageString', '{OTHER}_{PART}-{TOTAL_PARTS}_')
+ok 17 - Test\Configs\OrtcConfigTest::testAttributeVerifySsl
+ok 18 - Tests\Exceptions\BatchRequestExceptionTest::testImplements
+ok 19 - Tests\Exceptions\InvalidBalancerUrlExceptionTest::testImplements
+ok 20 - Tests\Exceptions\NetworkErrorExceptionTest::testImplements
+ok 21 - Tests\Exceptions\UnauthorizedExceptionTest::testImplements
+ok 22 - Tests\Handlers\AuthResponseHandlerTest::testImplementsAndHandle
+ok 23 - Tests\Handlers\BalancerUrlResponseHandlerTest::testImplementsAndHandle
+ok 24 - Tests\Handlers\BalancerUrlResponseHandlerTest::testHandleThrowInvalidBalancerUrlException with data set #0 ('var sockect = "url-invalid"')
+ok 25 - Tests\Handlers\BalancerUrlResponseHandlerTest::testHandleThrowInvalidBalancerUrlException with data set #1 ('http://undefined')
+ok 26 - Tests\Handlers\BalancerUrlResponseHandlerTest::testHandleThrowInvalidBalancerUrlException with data set #2 ('var SOCKET_SERVER = "https://...ined";')
+ok 27 - Tests\Handlers\BalancerUrlResponseHandlerTest::testHandleThrowInvalidBalancerUrlException with data set #3 ('http://foo+bar.com')
+ok 28 - Tests\Handlers\SendMessageResponseHandlerTest::testImplementsAndHandle
+ok 29 - Tests\Models\ChannelTest::testConstruct
+ok 30 - Tests\Models\ChannelTest::testSetAndGetAttributes
+ok 31 - Tests\Models\ChannelTest::testToString
+ok 32 - Tests\Models\Requests\AuthRequestTest::testImplementsDefault
+ok 33 - Tests\Models\Requests\AuthRequestTest::testSetAndGetAttributes with data set #0 ('channels', array('CHANNEL1', 'CHANNEL2'))
+ok 34 - Tests\Models\Requests\AuthRequestTest::testSetAndGetAttributes with data set #1 ('authToken', 'abcdef')
+ok 35 - Tests\Models\Requests\AuthRequestTest::testSetAndGetAttributes with data set #2 ('expireTime', 3600)
+ok 36 - Tests\Models\Requests\AuthRequestTest::testAttributePrivate
+ok 37 - Tests\Models\Requests\AuthRequestTest::testGetPostData
+ok 38 - Tests\Models\Requests\BalancerUrlRequestTest::testImplementsDefault
+ok 39 - Tests\Models\Requests\OrtcRequestTest::testImplementsDefault
+ok 40 - Tests\Models\Requests\SendMessageRequestTest::testImplementsDefault
+ok 41 - Tests\Models\Requests\SendMessageRequestTest::testSetAndGetAttributes with data set #0 ('channelName', 'CHANNEL_NAME')
+ok 42 - Tests\Models\Requests\SendMessageRequestTest::testSetAndGetAttributes with data set #1 ('authToken', 'abcdef')
+ok 43 - Tests\Models\Requests\SendMessageRequestTest::testSetAndGetAttributes with data set #2 ('message', 'foo bar')
+ok 44 - Tests\Models\Requests\SendMessageRequestTest::testGetPostData
+ok 45 - Tests\Responses\AuthResponseTest::testImplements
+ok 46 - Tests\Responses\BalancerUrlResponseTest::testImplements
+ok 47 - Tests\Responses\SendMessageResponseTest::testImplements
+1..47
