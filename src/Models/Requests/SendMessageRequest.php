@@ -84,7 +84,7 @@ class SendMessageRequest extends OrtcRequest
         $chunks = str_split($this->getMessage(), $maxSize);
         $numberOfParts = count($chunks);
 
-        $randomString = substr(sha1(rand(1,10)), -8);
+        $randomString = substr(sha1(rand(1, 10)), -8);
 
         for ($i = 0; $i < count($chunks); $i++) {
             $preString = strtr(
@@ -96,7 +96,7 @@ class SendMessageRequest extends OrtcRequest
                 ]
             );
 
-            $chunks[$i] = $preString.$chunks[$i];
+            $chunks[$i] = $preString . $chunks[$i];
         }
 
         return $chunks;
