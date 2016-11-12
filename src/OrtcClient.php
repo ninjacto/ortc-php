@@ -143,7 +143,7 @@ class OrtcClient
     /**
      * create guzzle GET/POST request.
      *
-     * @return \GuzzleHttp\Message\Request
+     * @return \Psr\Http\Message\RequestInterface
      */
     protected function createRequest()
     {
@@ -188,7 +188,7 @@ class OrtcClient
     protected function getRequestUrl()
     {
         if (!$this->request->isUrlAbsolute()) {
-            return $this->baseUrl.$this->request->getUrlPath();
+            return $this->baseUrl . $this->request->getUrlPath();
         } else {
             return $this->request->getUrlPath();
         }
