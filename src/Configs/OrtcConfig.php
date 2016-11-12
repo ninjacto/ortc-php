@@ -109,18 +109,18 @@ class OrtcConfig
     /**
      * @return string
      */
-    public function getBalancerUrl()
+    public function getBalancedUrl()
     {
         return $this->clusterUrl . $this->balancerUrl;
     }
 
     /**
-     * @param string $balancerUrl
+     * @param string $balancedUrl
      * @return $this
      */
-    public function setBalancerUrl($balancerUrl)
+    public function setBalancedUrl($balancedUrl)
     {
-        $this->balancerUrl = $balancerUrl;
+        $this->balancerUrl = $balancedUrl;
         return $this;
     }
 
