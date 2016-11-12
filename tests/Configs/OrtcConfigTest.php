@@ -9,6 +9,8 @@ class OrtcConfigTest extends TestCase
 {
     /**
      * @dataProvider providerAttributesDefault
+     * @param $attribute
+     * @param $value
      */
     public function testAttributesDefault($attribute, $value)
     {
@@ -35,6 +37,8 @@ class OrtcConfigTest extends TestCase
 
     /**
      * @dataProvider providerSetAttributes
+     * @param $attribute
+     * @param $value
      */
     public function testSetAttributes($attribute, $value)
     {
