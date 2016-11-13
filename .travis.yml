@@ -11,12 +11,6 @@ matrix:
   allow_failures:
     - php: nightly
 
-env:
-  - CUBRID_VERSION=9.3.0/CUBRID-9.3.0.0206 CUBRID_PDO_VERSION=9.3.0.0001
-
-services:
-  - memcached
-
 # faster builds on new travis setup not using sudo
 sudo: false
 
@@ -34,7 +28,6 @@ install:
         phpenv config-rm xdebug.ini || echo "xdebug is not installed"
     fi
   - travis_retry composer self-update && composer --version && composer install
-  - travis_retry composer global require "fxp/composer-asset-plugin:^1.2.0"
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - travis_retry composer update --prefer-dist --no-interaction
 
