@@ -2,6 +2,3 @@
 .idea
 composer.lock
 vendor
-
-.idea/
-vendor/

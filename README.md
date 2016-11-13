@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A modern PHP client for ORTC (Open Real-Time Connectivity, realtime & cloud-based pub/sub framework from realtime.co for PHP 5.4+).
+A modern PHP client for ORTC (Open Real-Time Connectivity, realtime & cloud-based pub/sub framework from realtime.co for PHP 5.5+).
 
 ## Install
 
